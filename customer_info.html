@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Information - Bean Haven Café</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Bean Haven Café</h1>
+  <p>Customer Information</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="coffee.html">Coffee Menu</a>
+  <a href="breakfast.html">Breakfast</a>
+  <a href="lunch.html">Lunch</a>
+  <a href="location.html">Location & Hours</a>
+  <a href="customer-info.html">Customer Information</a>
+</nav>
+
+<main>
+
+  <form>
+
+    <h2>Create Customer Account</h2>
+
+    <label for="fname">First Name</label>
+    <input type="text" placeholder="First Name" name="fname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" placeholder="Last Name" name="lname">
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email">
+
+    <label for="password">Password</label>
+    <input type="password" id="password">
+
+  </form>
+
+  <form>
+
+    <h2>Location & Preferences</h2>
+
+    <label for="state">State</label>
+    <input list="states" id="state">
+
+    <datalist id="states">
+      <option value="Pennsylvania">
+      <option value="New Jersey">
+      <option value="Delaware">
+      <option value="Maryland">
+      <option value="New York">
+    </datalist>
+
+    <label for="country">Country</label>
+    <input list="countries" id="country">
+
+    <datalist id="countries">
+      <option value="United States">
+      <option value="Canada">
+      <option value="Mexico">
+      <option value="United Kingdom">
+      <option value="Australia">
+    </datalist>
+
+    <label for="drink">Favorite Coffee Drink</label>
+    <input list="drinks" id="drink">
+
+    <datalist id="drinks">
+      <option value="Latte">
+      <option value="Cappuccino">
+      <option value="Espresso">
+      <option value="Mocha">
+      <option value="Cold Brew">
+    </datalist>
+
+  </form>
+
+</main>
+
+<footer>
+  <p>© 2026 Bean Haven Café</p>
+</footer>
+
+</body>
+</html>
